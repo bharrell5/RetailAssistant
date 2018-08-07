@@ -1,0 +1,52 @@
+Project 1: The Retail Sales Assistant
+You have been asked to write a program to calculate sales totals for a general store.  
+Your program will not know how many products each customer will buy, 
+so your program will have to repeat the process until the last product has been entered (use -1 for Product ID to end each sale).  
+After each sale your program must ask if you want to do another sale (1 –continue, 0 – end program).
+At the beginning of the day, the cash drawer has $500 in it.  
+At the end of the program you must display how much money is in the drawer after handling all your sales transactions.
+
+
+Input
+
+Your program must take the following input:
+•	Product ID Number (int)
+•	Quantity for each item purchased (int)
+Use the following dataset to determine the price and taxability for each item.  
+
+First Sale:
+
+Product ID	    Price	  Quantity	Taxable
+101	            $65.00	 2	        Yes
+102	            $12.50	 1	        No
+103	            $24.50	 5	        No
+104	            $38.75	 4	        Yes
+105	            $17.80	 6	        Yes
+106	            $16.50	 2	        No
+107	            $42.85	 8	        Yes
+108           	$32.99	 2	        Yes
+109	            $28.75	 1	        Yes
+110	            $51.55	 1	        No
+
+Second Sale:
+
+Product ID	    Price	  Quantity	Taxable
+102	            $12.50	 1	        No
+103	            $24.50	 1	        No
+106	            $16.50	 1	        No
+107           	$42.85	 1	        Yes
+108	            $32.99	 1	        Yes
+109	            $28.75	 1	        Yes
+
+
+Third Sale:
+
+Product ID	    Price	  Quantity	Taxable
+106           	$16.50	 4	        No
+107	            $42.85	 3	        Yes
+108	            $32.99	 1	        Yes
+109	            $28.75	 5	        Yes
+110	            $51.55	 2	        No
+
+Calculating Tax
+For those items that are taxable, assume a 7.5% sales tax.  Be sure to keep a running total of tax for the each sale.
